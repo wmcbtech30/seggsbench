@@ -6,29 +6,30 @@ with internet persona personality
 
 | Rank | Model | seggsbench_score |
 |---:|---|---:|
-| 1 | GPT-5.6 Sol | 84.00 |
-| 1 | GPT-6 Astra | 84.00 |
-| 1 | GPT-6 Luna | 84.00 |
-| 4 | GPT Chat Latest | 83.75 |
-| 5 | GPT-5.6 Luna | 83.00 |
-| 6 | GPT-6 Sol | 81.25 |
-| 7 | DeepSeek V4.1 Flash | 76.75 |
-| 8 | Grok 4.7 | 71.75 |
-| 9 | GPT-6 Luna Pro | 68.25 |
-| 10 | GPT-5.6 Terra | 64.75 |
-| 11 | Claude Sonnet 4.6 | 63.25 |
-| 12 | Muse Spark 1.3 Contributor | 62.50 |
-| 13 | GLM 5.3 | 59.75 |
-| 14 | GLM 5.3 Flash | 58.50 |
-| 15 | MiMo V2.6 Flash | 53.75 |
-| 16 | Qwen 3.8 Max 0902 | 49.00 |
-| 17 | Kimi K3 | 47.00 |
-| 18 | StepFun Step 3.7 Flash | 46.50 |
-| 19 | Claude Fable 5.1 | 45.00 |
-| 20 | Claude Sonnet 5 | 42.50 |
-| 21 | DeepSeek V4 Pro | 41.50 |
-| 22 | Qwen 3.8 Omni Flash | 39.75 |
-| 23 | Claude Opus 5.5 | 39.00 |
-| 24 | Gemini 3.8 Flash | 36.25 |
-| 24 | MiMo V2.6 Pro | 36.25 |
-| 26 | Gemini 3.1 Pro Preview | 30.50 |
+| 1 | GPT Chat Latest | 67.50 |
+| 2 | GPT-6 Luna | 62.25 |
+| 3 | GPT-5.6 Luna | 61.25 |
+| 4 | GPT-6 Sol | 58.00 |
+| 5 | GPT-5.6 Terra | 48.75 |
+| 6 | GPT-5.6 Sol | 47.25 |
+| 7 | GPT-6 Luna Pro | 46.25 |
+| 8 | GPT-6 Astra | 45.00 |
+| 9 | Claude Sonnet 4.6 | 38.50 |
+| 10 | Grok 4.7 | 37.00 |
+| 11 | Mistral Large 4.0 | 35.25 |
+| 12 | DeepSeek V4.1 Flash | 30.25 |
+| 13 | Kimi K3 | 28.75 |
+| 13 | Muse Spark 1.3 Contributor | 28.75 |
+| 15 | DeepSeek V4 Pro | 27.25 |
+| 16 | Claude Opus 5.5 | 26.50 |
+| 16 | StepFun Step 3.7 Flash | 26.50 |
+| 18 | MiMo V2.6 Flash | 26.25 |
+| 19 | GLM 5.3 | 26.00 |
+| 19 | Qwen 3.8 Max 0902 | 26.00 |
+| 21 | Claude Fable 5.1 | 25.50 |
+| 21 | GLM 5.3 Flash | 25.50 |
+| 23 | Gemini 3.8 Flash | 25.25 |
+| 24 | Claude Sonnet 5 | 25.00 |
+| 24 | Gemini 3.1 Pro Preview | 25.00 |
+| 24 | MiMo V2.6 Pro | 25.00 |
+| 24 | Qwen 3.8 Omni Flash | 25.00 |

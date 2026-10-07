@@ -7,7 +7,7 @@ if [[ -z "${OPENROUTER_API_KEY:-}" ]]; then
     exit 1
 fi
 
-while IFS= read -r model; do
+while IFS= read -r model || [[ -n "$model" ]]; do
     [[ -z "$model" ]] && continue
 
     echo "[*] Scoring model: ${model}"

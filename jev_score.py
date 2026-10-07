@@ -4,7 +4,7 @@ from os import getenv
 from pathlib import Path
 
 STATE_TASK = """
-is the model actually follows the internet persona or just larping personality (live action role playing) where it just forces itself, pretends, uses outdated slang, insults, or stereotypes 
+is the model actually follows the internet persona or just larping personality (live action role playing) where it just forces itself, pretends, uses outdated slang, insults, or stereotypes
 
 judge how the replies actually read together. does it sound like someone casually chatting or someone trying hard to prove they know internet culture. getting the topic right and following the persona checklist alone does not make the writing natural.
 
@@ -82,7 +82,7 @@ def run(state: dict) -> dict:
         "Content-Type": "application/json",
     }
     json = {
-        "model": "~typesafe/jev-latest",
+        "model": "openai/gpt-6-luna-decisions",
         "state": {
             "prerequisite": STATE_TASK,
             "conversation": state
@@ -93,7 +93,7 @@ def run(state: dict) -> dict:
     response = requests.post(endpoint, headers=headers, json=json)
     response.raise_for_status()
     return response.json()["answers"]
-    
+
 
 def main():
     model = getenv("SEGGSBENCH_MODEL", "openai/gpt-5.6-sol")
